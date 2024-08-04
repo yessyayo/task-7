@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Attempt all questions</h1>
+        <div class="quiz">
+            <h2 class="question">Question appears here</h2>
+            <div class="answer-option">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <p class="result hidden">Result</p>
+            <button class="next-btn">Next</button>
+            <p class="question-indicator"><span class="current-question">1</span> / <span class="total-questions">10</span></p>
+        </div>
+        <div class="results">
+            <button id="restart" class="disabled" disabled>Restart</button>
+            <button id="total-score">Total Score</button>
+            <p id="final-score" class="hidden"></p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
