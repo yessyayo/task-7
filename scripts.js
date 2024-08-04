@@ -117,6 +117,7 @@ restartButton.addEventListener('click', () => {
         answerButtons.forEach(button => button.style.display = 'block');
         restartButton.classList.add('disabled');
         restartButton.disabled = true;
+        header.textContent = 'Attempt all questions';
     }
 });
 
